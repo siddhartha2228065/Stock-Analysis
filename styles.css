@@ -1,0 +1,203 @@
+/* Global Styles */
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+    transition: background-color 0.3s ease;
+}
+
+/* Command Center */
+.command-center {
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+    background-color: #1c1c1c;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Header with Background Image */
+header {
+    background-image: url('Stock Market Wallpapers (51+ pictures).jpeg');
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    border-bottom: 3px solid #e4002b;
+    transition: background-color 0.3s ease;
+}
+
+/* Header Hover Effect */
+header:hover {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+/* Main Content Area */
+main {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    transition: opacity 0.3s ease;
+}
+
+/* List and Section Styles */
+.battle-list, .intel-section {
+    background-color: #1c1c1c;
+    padding: 20px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    width: 48%;
+    border: 2px solid #333;
+    border-radius: 8px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.battle-list:hover, .intel-section:hover {
+    transform: scale(1.02);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+/* Lookup Section */
+.lookup-section {
+    margin-top: 20px;
+    background-color: #1c1c1c;
+    padding: 20px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    border: 2px solid #333;
+    border-radius: 8px;
+}
+
+/* Heading Styles */
+h2 {
+    margin-top: 0;
+    color: #e4002b;
+    font-size: 1.5em;
+    border-bottom: 2px solid #e4002b;
+    padding-bottom: 10px;
+    transition: color 0.3s ease;
+}
+
+/* Hover Effect for Headings */
+h2:hover {
+    color: #c2001a;
+}
+
+/* List Item Styles */
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    padding: 15px;
+    border-bottom: 1px solid #333;
+    cursor: pointer;
+    position: relative;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+li:hover {
+    background-color: #2a2a2a;
+    color: #e4002b;
+}
+
+/* Button Styles */
+li button {
+    display: none;
+    position: absolute;
+    right: 15px;
+    top: 15px;
+    background-color: #e4002b;
+    border: none;
+    color: #fff;
+    border-radius: 4px;
+    padding: 5px 10px;
+    transition: background-color 0.3s ease;
+}
+
+li:hover button {
+    display: inline-block;
+}
+
+/* Search Input */
+#target-search {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    border: 1px solid #333;
+    border-radius: 4px;
+    background-color: #1c1c1c;
+    color: #fff;
+    transition: background-color 0.3s ease, border-color 0.3s ease;
+}
+
+#target-search:focus {
+    background-color: #333;
+    border-color: #e4002b;
+}
+
+/* Table Styles */
+#target-table {
+    width: 100%;
+    border-collapse: collapse;
+    color: #fff;
+}
+
+#target-table th, #target-table td {
+    border: 1px solid #333;
+    padding: 12px;
+    text-align: left;
+    transition: background-color 0.3s ease;
+}
+
+#target-table tr:hover {
+    background-color: #2a2a2a;
+}
+
+/* Table Header */
+#target-table th {
+    background-color: #e4002b;
+    color: #fff;
+}
+
+/* Positive and Negative Classes */
+.positive {
+    color: #00e676;
+    font-weight: bold;
+}
+
+.negative {
+    color: #e4002b;
+    font-weight: bold;
+}
+
+/* Button Styles */
+button {
+    padding: 8px 12px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    background-color: #e4002b;
+    color: #fff;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+button.add {
+    background-color: #e4002b;
+}
+
+button.add:hover {
+    background-color: #c2001a;
+    transform: scale(1.05);
+}
+
+button.remove {
+    background-color: #ff1744;
+}
+
+button.remove:hover {
+    background-color: #d50032;
+    transform: scale(1.05);
+}
